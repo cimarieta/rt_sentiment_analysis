@@ -3,7 +3,7 @@ Sentiment Analysis on reviews from Rotten Tomatoes.
 
 ## About the dataset
 
-The original dataset has over 10,000 reviews in different languages, mostly in English, classified with one of the labels, `positive` (`1` or `negative` (`0`). Here, we use the [python interface for fasttext](https://github.com/salestock/fastText.py) to build a sentiment analyzer.
+The original dataset has over 10,000 reviews in different languages, mostly in English, classified with one of the labels, `positive` (`1`) or `negative` (`0`). Here, we use the [python interface for fasttext](https://github.com/salestock/fastText.py) to build a sentiment analyzer.
 
 ## Implementation details
 
@@ -20,7 +20,7 @@ There are five steps involved in this sentiment analysis project:
 ## Results
 
 * the best option (among the ones we explored) for the text processing was to just remove the entity names and keep the stopwords
-* our best model (selected from the implemented grid-search) yielded a precision of `0.91`.
+* the best model (selected from the implemented grid-search) yielded a precision of `0.91`.
 
 ## Next possible steps
 
